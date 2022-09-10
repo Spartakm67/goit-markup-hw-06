@@ -494,13 +494,13 @@ body {
 .footer-list-social {
   margin-right: 93px;
 }
-/* .footer-form-submit::after {
-  content: "";
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  background-image: url(./images/sprite.svg#icon-send);
-} */
+.footer-form-submit {
+  background-color: var(--accent-color);
+  /* margin-left: auto; */
+}
+.footer-submit-icon {
+  fill: var(--primary-text-color-theme-dark);
+}
 /* ========== /FOOTER ============ */
 
 /* ========== PORTFOLIO ========== */

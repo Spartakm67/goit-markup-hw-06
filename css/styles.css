@@ -425,7 +425,7 @@ body {
   fill: var(--svg-icon-color);
   transition: fill var(--transition-dur-and-func);
 }
-/* ======= Footer =======*/
+/* ========== FOOTER ==========*/
 
 .footer {
   padding-top: 60px;
@@ -491,7 +491,19 @@ body {
 .footer .social-list {
   padding-bottom: 0;
 }
-/* ======= Portfolio ======= */
+.footer-list-social {
+  margin-right: 93px;
+}
+/* .footer-form-submit::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-image: url(./images/sprite.svg#icon-send);
+} */
+/* ========== /FOOTER ============ */
+
+/* ========== PORTFOLIO ========== */
 
 .list-portfolio {
   display: block;
@@ -581,7 +593,7 @@ body {
 .list-portfolio:focus .overlay {
   transform: translateY(0%);
 }
-/* ===============/FOOTER ============== */
+/* ===============/PORTFOLIO ============== */
 
 /* =============== BACKDROP ============ */
 .backdrop {

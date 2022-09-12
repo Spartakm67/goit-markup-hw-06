@@ -151,7 +151,6 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
 .menu-link {
   font-weight: 500;
   color: var(--primary-text-color-theme-light);
@@ -161,7 +160,6 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
@@ -184,12 +182,10 @@ body {
   color: var(--secodary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
 }
-
 .mail:hover,
 .mail:focus {
   color: var(--accent-color);
 }
-
 .phone {
   display: flex;
   align-items: center;
@@ -198,7 +194,6 @@ body {
   color: var(--secodary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
 }
-
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
@@ -222,7 +217,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .main-header {
   width: 696px;
   font-weight: 900;
@@ -236,7 +230,6 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
 }
-
 /* Buttons */
 .hero-btn {
   font-weight: 700;
@@ -253,7 +246,6 @@ body {
   transition: color var(--transition-dur-and-func),
     background-color var(--transition-dur-and-func);
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--primary-text-color-theme-dark);
@@ -550,7 +542,6 @@ body {
 }
 .footer-form-submit:hover,
 .footer-form-submit:focus {
-  /* outline: none; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-email-input:focus {

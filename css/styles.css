@@ -495,6 +495,7 @@ body {
   margin-left: auto;
 }
 .footer-list-input-title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -539,6 +540,7 @@ body {
   border: transparent;
   border-radius: 4px;
   margin-left: 12px;
+  margin-top: auto;
   padding: 10px 28px;
   background-color: var(--accent-color);
 }
@@ -674,7 +676,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
+  /* height: 581px; */
   padding: 40px;
   background-color: var(--primary-text-color-theme-dark);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -725,7 +727,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   color: var(--secodary-text-color-theme-light);
 }
 .modal-form-field {
@@ -761,6 +763,7 @@ body {
   margin-bottom: 20px;
 }
 .modal-form-message {
+  display: block;
   width: 100%;
   height: 120px;
   resize: none;
@@ -782,6 +785,7 @@ body {
 }
 .modal-form-check-field {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
